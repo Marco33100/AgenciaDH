@@ -1,5 +1,5 @@
 //produccion
 
 export const environment = {
-  baseUrl: 'http://agencia-viajes'
-} 
+  baseUrl: 'http://localhost:8090'
+}
