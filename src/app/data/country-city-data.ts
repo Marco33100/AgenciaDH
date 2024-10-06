@@ -31,7 +31,7 @@ export const COUNTRY_CITY_DATA: CountryCityData = {
   'México': [
     'Acapulco', 'Aguascalientes', 'Altotonga', 'Baja California', 'Baja California Sur', 'Cabo San Lucas', 'Cancún',
     'Chetumal', 'Chihuahua', 'Chilpancingo', 'Ciudad de México', 'Coatzacoalcos', 'Cristóbal', 'Cuernavaca', 'Dolores Hidalgo',
-    'Durango', 'Escondido', 'Guadalajara', 'Guerrero', 'Higo', 'Hermosillo', 'Iroquois Falls', 'José', 'Juárez', 'La Paz',
+    'Durango', 'Escondido', 'Guadalajara', 'Guerrero','Guanajuato', 'Higo', 'Hermosillo', 'Iroquois Falls', 'José', 'Juárez', 'La Paz',
     'Laredo', 'León', 'Manzanillo', 'Matamoros', 'Matehuala', 'Medicine Hat', 'Melville', 'Mérida', 'Mexicali', 'Monclova',
     'Monterrey', 'Morelia', 'Mujeres', 'Nautla', 'Negras', 'Newmarket', 'Nogales', 'Oaxaca', 'Pachuca', 'Parral', 'Patzcuaro',
     'Pembroke', 'Playa del Carmen', 'Pueblo', 'Puerto Vallarta', 'Querétaro', 'Quintana Roo', 'Reynosa', 'Salina', 'Saltillo',
