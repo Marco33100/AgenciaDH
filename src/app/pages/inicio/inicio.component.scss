@@ -21,6 +21,11 @@
     border-bottom: 3px solid rgb(115, 190, 92);
 }
 
+.title--maps {
+  text-align: center;
+  border-bottom: 3px solid rgb(175, 13, 13);
+}
+
 
 .atractivos{
     margin-bottom: 3em;
@@ -68,4 +73,11 @@
 
         border-radius: 5px;
     }
+}
+
+.div app-map {
+  display: block;
+  height: 500px; /* Define el tamaño que deseas para tu mapa */
+  width: 100%;
+  margin: 20px 0; /* Para darle espacio entre los otros elementos */
 }
