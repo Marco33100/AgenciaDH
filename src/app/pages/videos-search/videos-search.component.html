@@ -1,0 +1,12 @@
+<div class="search-container">
+    <input [(ngModel)]="query" placeholder="Buscar Videos"/>
+    <button (click)="search()">Buscar</button>
+</div>
+
+<div class="videos-container">
+    <div *ngFor="let video of videos; let i = index" [ngClass]="{'video-left': i % 2 === 0, 'video-right': i % 2 !== 0}" class="video-item">
+        <h3>{{video.snippet.title}}</h3>
+        <iframe width="560" height="315" [src]="getSafeUrl(video.id.videoId)" frameborder="0" allowfullscreen></iframe>
+        <p>{{video.snippet.description}}</p>
+    </div>
+</div>

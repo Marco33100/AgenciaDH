@@ -19,6 +19,7 @@ import { gestorGuard } from './guard/gestor.guard';
 import { RecuperarPComponent } from './pages/correoRec/recuperarP.component';
 import { ContraRecComponent } from './pages/contraRec/contraRec.component';
 import { MisPaquetesComponent } from './pages/mis-paquetes/mis-paquetes.component';
+import { VideosSearchComponent } from './pages/videos-search/videos-search.component';
 
 
 const routes: Routes = [
@@ -42,6 +43,7 @@ const routes: Routes = [
 
   {path:'404', component:Error404PageComponent},
   {path:'**',redirectTo:'404'},
+  {path:'videos-search',component:VideosSearchComponent}
 ];
 
 @NgModule({
