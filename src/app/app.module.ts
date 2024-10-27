@@ -42,11 +42,7 @@ import { Parte2Component } from './pages/paquetes-personalizados/parte2/parte2.c
 import { PaquetesPersonalizadosComponent } from './pages/paquetes-personalizados/paquetes-personalizados.component';
 import { MisPaquetesComponent } from './pages/mis-paquetes/mis-paquetes.component';
 
-
 import { MapComponent } from './pages/map/map.component';
-
-
-
 import { VideosSearchComponent } from './pages/videos-search/videos-search.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 
@@ -66,7 +62,10 @@ import { InicioComponent } from './pages/inicio/inicio.component';
     Parte4Component,
     Parte5Component,
     PaquetesPersonalizadosComponent,
-    MisPaquetesComponent
+    MisPaquetesComponent,
+    InicioComponent,
+    MapComponent,
+    VideosSearchComponent
   ],
   imports: [
     BrowserModule,
