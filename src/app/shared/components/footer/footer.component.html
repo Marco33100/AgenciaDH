@@ -2,9 +2,19 @@
 <footer class="footer">
   © UTNG 2024 GDS0631.
 
-<div class="chatbot-container" id="chatbot-container">
-  <iframe allow="microphone;" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/85d59877-3f4a-436d-b253-c6a2721c789e"></iframe>
-</div>
-<button id="chatbot-toggle" (click)="toggleChatbot()">💬</button>
+  <!-- Chatbot Container -->
+  <div class="chatbot-container" [class.hidden]="!isChatbotVisible">
+    <iframe
+      src="https://www.chatbase.co/chatbot-iframe/-cuwXxPv-FN9y5GSskVw2"
+      width="100%"
+      style="height: 80%; min-height: 500px"
+      frameborder="0"
+    ></iframe>
+  </div>
+
+  <!-- Chatbot Toggle Button -->
+  <button class="chatbot-bubble" (click)="toggleChatbot()">
+    💬
+  </button>
 
 </footer>
