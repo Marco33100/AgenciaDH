@@ -1,0 +1,42 @@
+/* Asegura que el contenedor ocupe más espacio en la pantalla */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; /* Fondo gris claro para hacer contraste */
+}
+
+.video-call-container {
+    width: 50%; /* Ancho del contenedor al 80% de la pantalla */
+    height: 80vh; /* Altura del contenedor al 80% de la altura de la ventana */
+    min-height: 600px; /* Ajusta la altura mínima según sea necesario */
+    position: relative;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el contenedor */
+    background-color: white;
+}
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 0 8px 8px; /* Bordes redondeados inferiores */
+    cursor: pointer;
+    position: absolute;
+    bottom: 0; /* Fija el botón en la parte inferior del contenedor */
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
