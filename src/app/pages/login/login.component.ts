@@ -6,6 +6,7 @@ import { DialogContentExampleDialog } from '../../shared/directives/dialog-conte
 import { MatDialog } from '@angular/material/dialog';
 import { firstValueFrom } from 'rxjs';
 import Swal from 'sweetalert2'
+import { InactividadService } from '../../core/services/inactividad.service';
 
 
 @Component({
@@ -21,7 +22,8 @@ export class LoginComponent implements OnInit {
     private form: FormBuilder,
     private loginService: LoginService,
     private router: Router,
-    public dialog: MatDialog
+    public dialog: MatDialog,
+    private inactividadService: InactividadService
   ){}
 
 
@@ -46,6 +48,8 @@ export class LoginComponent implements OnInit {
           text: "Inicio de sesión exitoso",
           icon: "success"
         });
+
+        this.inactividadService.startMonitoring();
 
         if (userRole === 'admin') {
           this.router.navigate(['/admin']);

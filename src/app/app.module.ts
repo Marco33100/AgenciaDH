@@ -45,7 +45,7 @@ import { MisPaquetesComponent } from './pages/mis-paquetes/mis-paquetes.componen
 import { MapComponent } from './pages/map/map.component';
 import { VideosSearchComponent } from './pages/videos-search/videos-search.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
-import { VideollamadaComponent } from './pages/videollamada/videollamada.component';
+// import { VideollamadaComponent } from './pages/videollamada/videollamada.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +67,7 @@ import { VideollamadaComponent } from './pages/videollamada/videollamada.compone
     InicioComponent,
     MapComponent,
     VideosSearchComponent,
-    VideollamadaComponent
+    // VideollamadaComponent
   ],
   imports: [
     BrowserModule,

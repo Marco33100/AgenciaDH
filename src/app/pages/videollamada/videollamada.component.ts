@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+/*import { Component, OnInit } from '@angular/core';
 import axios from 'axios'; // Para realizar solicitudes HTTP
 
 declare global {
@@ -69,4 +69,4 @@ export class VideollamadaComponent implements OnInit {
   leaveCall(): void {
     this.dailyCallFrame.leave();
   }
-}
+}*/
